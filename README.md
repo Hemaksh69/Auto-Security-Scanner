@@ -72,7 +72,7 @@ brew install nmap curl jq                            # macOS (Homebrew)
 ### **🚀 Quick Start (Single Command)**
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/Auto-Security-Scanner.git
+git clone https://github.com/Hemaksh69/Auto-Security-Scanner.git
 cd Auto-Security-Scanner
 
 # Make the script executable
