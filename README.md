@@ -1,10 +1,7 @@
-Here's a comprehensive, engaging, and professional README.md for your Auto-Security-Scanner repository:
-
-```markdown
 # Auto-Security-Scanner 🛡️🔍
 
 **[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)**
-**[![Build Status](https://github.com/yourusername/Auto-Security-Scanner/actions/workflows/test.yml/badge.svg)](https://github.com/yourusername/Auto-Security-Scanner/actions)**
+**[![Build Status](https://github.com/Hemaksh69/Auto-Security-Scanner/actions/workflows/test.yml/badge.svg)](https://github.com/Hemaksh69/Auto-Security-Scanner/actions)**
 **[![Shell Check](https://github.com/koalaman/shellcheck/actions/workflows/shellcheck.yml/badge.svg)](https://github.com/koalaman/shellcheck)**
 **[![Code Style: ShellCheck](https://img.shields.io/badge/code%20style-shellcheck-000000.svg)](https://github.com/koalaman/shellcheck)**
 
