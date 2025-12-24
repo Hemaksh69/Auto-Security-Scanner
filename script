@@ -16,7 +16,7 @@ print_section "[+] User & Permission Check"
 
 USER_NAME=$(whoami)
 echo "Current User:  $USER_NAME"
-if [[ "$USER_NAME" == "root" ]]; then  # Fixed: Added space after 'if' and proper spacing
+if [[ "$USER_NAME" == "root" ]]; then
     echo "Running as ROOT - HIGH RISK"
     THREATS=$((THREATS + 3))
 else
@@ -34,11 +34,11 @@ else
 fi
 
 print_section "[+] TOP 5 Processes by Memory"
-ps aux --sort=-%mem | head -n 6  # Fixed: Removed 's' from '--sorts'
+ps aux --sort=-%mem | head -n 6
 
 print_section "[+] Listening Ports"
-PORTS=$(ss -tuln 2>/dev/null)  # Fixed: Corrected options
-if [[ -z "$PORTS" ]]; then  # Fixed: Missing closing quote
+PORTS=$(ss -tuln 2>/dev/null)
+if [[ -z "$PORTS" ]]; then
     echo "PORT scanning not supported on JDOODLE"
 else 
     echo "$PORTS"
@@ -50,18 +50,18 @@ print_section "[+] Kernel Information"
 uname -a
 
 print_section "[+] Final Threat Assessment"
-if ((THREATS >= 5)); then  # Fixed: Added space after 'if'
+if ((THREATS >= 5)); then
     echo "THREAT LEVEL:  HIGH"
     echo "Serious security issues detected"
-elif ((THREATS >= 3)); then  # Fixed: Added space after 'elif'
+elif ((THREATS >= 3)); then
     echo "THREAT LEVEL:  MEDIUM"
     echo "System has moderate risks."
 else
     echo "THREAT LEVEL:  LOW"
-    echo "System appears safe."  # Fixed: Typo correction
+    echo "System appears safe."
 fi    
 
 echo
-echo "======================"
+necho "======================"
 echo "Autosec scan complete"
 echo "======================"
