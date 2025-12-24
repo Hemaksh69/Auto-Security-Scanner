@@ -258,33 +258,6 @@ This project is licensed under the **MIT License** – see the [LICENSE](LICENSE
 
 ---
 
-## 👥 **Authors & Contributors**
-
-### **Maintainers**
-👤 **[Your Name](https://github.com/yourusername)**
-🔗 [Email](mailto:your.email@example.com)
-
-### **Contributors**
-👤 [Contributor Name](https://github.com/contributor)
-👤 [Another Contributor](https://github.com/anotheruser)
-
-### **Acknowledgments**
-- [ShellCheck](https://github.com/koalaman/shellcheck) (for linting).
-- [Nmap](https://nmap.org/) (for port scanning).
-- All open-source contributors who inspire us!
-
----
-
-## 🐛 **Issues & Support**
-
-### **📢 Reporting Issues**
-Found a bug or missing a feature? Open an issue here:
-🔗 [GitHub Issues](https://github.com/yourusername/Auto-Security-Scanner/issues)
-
-### **💬 Getting Help**
-- **Discussions**: [Ask Questions](https://github.com/yourusername/Auto-Security-Scanner/discussions)
-- **Community**: Join our [Slack/Discord](link-to-community)
-
 ### **📋 FAQ**
 | Question | Answer |
 |----------|--------|
@@ -306,9 +279,6 @@ Found a bug or missing a feature? Open an issue here:
 - [ ] **Machine learning-based anomaly detection**.
 - [ ] **Automated remediation scripts**.
 
-### **🔄 Known Issues**
-- [#123](https://github.com/yourusername/Auto-Security-Scanner/issues/123) – Some checks fail on macOS.
-- [#456](https://github.com/yourusername/Auto-Security-Scanner/issues/456) – Docker plugin needs refinement.
 
 ---
 
@@ -316,7 +286,6 @@ Found a bug or missing a feature? Open an issue here:
 
 Star ⭐ this repository to show your support! Every star helps us grow the community and improve the tool.
 
-**Questions?** Drop them in the [Discussions](https://github.com/yourusername/Auto-Security-Scanner/discussions) or open an issue.
 
 Happy scanning! 🛡️🔍
 ```
