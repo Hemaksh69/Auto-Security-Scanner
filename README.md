@@ -5,7 +5,8 @@
 ### Automated Heuristic Threat Assessment & Vulnerability Detection Engine
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge&color=2ea44f)](https://opensource.org/licenses/MIT)
-[![Build Status](https://img.shields.io/github/actions/workflow/status/Hemaksh69/Auto-Security-Scanner/test.yml?style=for-the-badge&label=CI%20Pipeline&logo=github)](https://github.com/Hemaksh69/Auto-Security-Scanner/actions)
+[![Version](https://img.shields.io/badge/Version-1.1.0-brightgreen?style=for-the-badge&logo=github&color=2ea44f)](https://github.com/Hemaksh69/Auto-Security-Scanner/releases)
+[![Status](https://img.shields.io/badge/Status-Stable-brightgreen?style=for-the-badge&logo=checkmarx&logoColor=white&color=2ea44f)](https://github.com/Hemaksh69/Auto-Security-Scanner)
 [![ShellCheck](https://img.shields.io/badge/ShellCheck-Passing-brightgreen?style=for-the-badge&logo=gnu-bash&logoColor=white&color=2ea44f)](https://github.com/koalaman/shellcheck)
 [![Code Quality](https://img.shields.io/badge/Code%20Quality-A+-blue?style=for-the-badge&color=2ea44f)](https://github.com/Hemaksh69/Auto-Security-Scanner)
 [![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen?style=for-the-badge&color=2ea44f)](https://github.com/Hemaksh69/Auto-Security-Scanner/pulls)
