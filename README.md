@@ -4,7 +4,6 @@
 ### Automated Heuristic Threat Assessment & Vulnerability Detection Engine
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
-
 [![ShellCheck](https://img.shields.io/badge/ShellCheck-Passing-brightgreen?style=for-the-badge&logo=gnu-bash&logoColor=white)](https://github.com/koalaman/shellcheck)
 [![Code Quality](https://img.shields.io/badge/Code%20Quality-A+-blue?style=for-the-badge)](https://github.com/Hemaksh69/Auto-Security-Scanner)
 [![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen?style=for-the-badge)](https://github.com/Hemaksh69/Auto-Security-Scanner/pulls)
