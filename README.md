@@ -4,12 +4,13 @@
 
 ### Automated Heuristic Threat Assessment & Vulnerability Detection Engine
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
-[![ShellCheck](https://img.shields.io/badge/ShellCheck-Passing-brightgreen?style=for-the-badge&logo=gnu-bash&logoColor=white)](https://github.com/koalaman/shellcheck)
-[![Code Quality](https://img.shields.io/badge/Code%20Quality-A+-blue?style=for-the-badge)](https://github.com/Hemaksh69/Auto-Security-Scanner)
-[![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen?style=for-the-badge)](https://github.com/Hemaksh69/Auto-Security-Scanner/pulls)
-[![GitHub Stars](https://img.shields.io/github/stars/Hemaksh69/Auto-Security-Scanner?style=for-the-badge&color=gold)](https://github.com/Hemaksh69/Auto-Security-Scanner/stargazers)
-[![Platform](https://img.shields.io/badge/Platform-Linux%20%7C%20macOS%20%7C%20WSL-informational?style=for-the-badge)](https://github.com/Hemaksh69/Auto-Security-Scanner)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge&color=2ea44f)](https://opensource.org/licenses/MIT)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/Hemaksh69/Auto-Security-Scanner/test.yml?style=for-the-badge&label=CI%20Pipeline&logo=github)](https://github.com/Hemaksh69/Auto-Security-Scanner/actions)
+[![ShellCheck](https://img.shields.io/badge/ShellCheck-Passing-brightgreen?style=for-the-badge&logo=gnu-bash&logoColor=white&color=2ea44f)](https://github.com/koalaman/shellcheck)
+[![Code Quality](https://img.shields.io/badge/Code%20Quality-A+-blue?style=for-the-badge&color=2ea44f)](https://github.com/Hemaksh69/Auto-Security-Scanner)
+[![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen?style=for-the-badge&color=2ea44f)](https://github.com/Hemaksh69/Auto-Security-Scanner/pulls)
+[![GitHub Stars](https://img.shields.io/github/stars/Hemaksh69/Auto-Security-Scanner?style=for-the-badge&color=e3b341&logo=github)](https://github.com/Hemaksh69/Auto-Security-Scanner/stargazers)
+[![Platform](https://img.shields.io/badge/Platform-Linux%20%7C%20macOS%20%7C%20WSL-informational?style=for-the-badge&color=007ec6)](https://github.com/Hemaksh69/Auto-Security-Scanner)
 
 <br/>
 
@@ -27,9 +28,9 @@
 
 **Auto-Security-Scanner** is a high-performance, extensible security assessment engine built for Unix-based systems. Designed around a modular detection pipeline, it performs **heuristic threat assessment** across network surfaces, service configurations, package integrity, and filesystem permissions — producing structured, machine-parsable reports suitable for both human review and downstream automation.
 
-Unlike heavyweight commercial scanners, Auto-Security-Scanner is purpose-built for **CI/CD pipeline integration**, delivering sub-second scan cycles for targeted check profiles while maintaining comprehensive coverage across common vulnerability classes. Its **plugin-driven architecture** allows teams to encode organization-specific security policies as composable detection modules without modifying core engine logic.
+Unlike heavyweight Go or Python binaries that bloat runner environments and introduce sprawling dependency trees, Auto-Security-Scanner achieves **zero-dependency portability** through pure POSIX-compliant execution. It is purpose-built for continuous **attack surface reduction** within CI/CD pipelines, executing declarative, **telemetry-agnostic probing** that enforces security boundaries with sub-second scan cycles. Its **plugin-driven architecture** allows teams to encode organization-specific security policies as composable detection modules without modifying core engine logic.
 
-The scanner employs a layered detection methodology: raw system interrogation feeds into a **heuristic risk-scoring engine** that classifies findings by exploitability, exposure surface, and remediation complexity — enabling security teams to triage effectively at scale.
+The scanner employs a layered detection methodology: raw system interrogation feeds into a **heuristic risk-scoring engine** that classifies findings by exploitability, exposure surface, and remediation complexity — enabling security teams to triage effectively at scale. Crucially, all system interactions are characterized by **idempotent execution**, ensuring no side-effects or state mutations during active assessments.
 
 ---
 
@@ -356,7 +357,7 @@ sudo ./auto-security-scanner.sh --output report.html
 
 ### v2.0 — Q3 2026: Autonomous Security Operations
 - [ ] **AI-Driven Remediation Engine** — Context-aware fix generation that produces validated remediation scripts tailored to the target environment's configuration state
-- [ ] **Scaling detection logic using high-context LLM reasoning for zero-day identification** — Leveraging large-context-window models to analyze novel vulnerability patterns across configuration and dependency graphs that evade signature-based detection
+- [ ] **Deep Context Vulnerability Remediation** — Leveraging Claude’s 200k context window to perform multi-file dependency analysis for complex vulnerability patching, contextualizing sprawling codebases to synthesize targeted, architecture-aware fixes that evade signature-based detection
 - [ ] **Predictive Threat Modeling** — Probabilistic attack path analysis based on discovered system topology and historical CVE exploitation data
 - [ ] **Cloud Provider Native Integration** — Deep API-level security posture assessment for AWS (IAM, S3, SecurityHub), GCP (IAM, GKE), and Azure (Defender, AKS)
 - [ ] **Interactive TUI Dashboard** — Real-time terminal-based monitoring interface with drill-down finding inspection
