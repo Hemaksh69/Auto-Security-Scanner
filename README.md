@@ -165,9 +165,8 @@ brew install nmap curl jq
 ```
 
 ### Installation
-
 ```bash
-git clone https://github.com/Hemaksh69/Auto-Security-Scanner.git
+git clone [https://github.com/Hemaksh69/Auto-Security-Scanner.git](https://github.com/Hemaksh69/Auto-Security-Scanner.git)
 cd Auto-Security-Scanner
 chmod +x auto-security-scanner.sh
 ```
