@@ -14,5 +14,5 @@ jobs:
           find . -name "*.sh" -type f -exec shellcheck {} +
       - name: Run Basic Test
         run: |
-          chmod +x ./auto-security-scanner.sh
-          ./auto-security-scanner.sh --help
+          chmod +x ./script
+          ./script --help
