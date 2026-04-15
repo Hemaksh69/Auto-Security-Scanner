@@ -10,8 +10,8 @@ jobs:
 
       - name: Run ShellCheck
         run: |
-          find . -name "*.sh" -print0 | xargs -0 shellcheck
-
+          # Use -exec to pass each file individually to shellcheck
+          find . -name "*.sh" -type f -exec shellcheck {} +
       - name: Run Basic Test
         run: |
           chmod +x ./auto-security-scanner.sh
