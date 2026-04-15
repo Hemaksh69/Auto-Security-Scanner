@@ -454,5 +454,6 @@ This project is licensed under the **MIT License**. See [LICENSE](LICENSE) for t
 
 [![GitHub Stars](https://img.shields.io/github/stars/Hemaksh69/Auto-Security-Scanner?style=for-the-badge&color=gold)](https://github.com/Hemaksh69/Auto-Security-Scanner/stargazers)
 [![GitHub Forks](https://img.shields.io/github/forks/Hemaksh69/Auto-Security-Scanner?style=for-the-badge&color=blue)](https://github.com/Hemaksh69/Auto-Security-Scanner/network/members)
-
+[![Security Scanner CI](https://github.com/Hemaksh69/Auto-Security-Scanner/actions/workflows/c.i.yml/badge.svg)](https://github.com/Hemaksh69/Auto-Security-Scanner/actions/workflows/c.i.yml)
+</div>
 </div>
