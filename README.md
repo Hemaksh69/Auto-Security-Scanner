@@ -12,7 +12,7 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen?style=for-the-badge&color=2ea44f)](https://github.com/Hemaksh69/Auto-Security-Scanner/pulls)
 [![GitHub Stars](https://img.shields.io/github/stars/Hemaksh69/Auto-Security-Scanner?style=for-the-badge&color=e3b341&logo=github)](https://github.com/Hemaksh69/Auto-Security-Scanner/stargazers)
 [![Platform](https://img.shields.io/badge/Platform-Linux%20%7C%20macOS%20%7C%20WSL-informational?style=for-the-badge&color=007ec6)](https://github.com/Hemaksh69/Auto-Security-Scanner)
-
+[![Security Scanner CI](https://github.com/Hemaksh69/Auto-Security-Scanner/actions/workflows/c.i.yml/badge.svg)](https://github.com/Hemaksh69/Auto-Security-Scanner/actions/workflows/c.i.yml)
 <br/>
 
 > *"Security should be deterministic, continuous, and embedded — not an afterthought."*
