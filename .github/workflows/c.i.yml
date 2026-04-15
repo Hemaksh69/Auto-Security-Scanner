@@ -14,4 +14,4 @@ jobs:
       - name: Run Basic Test
         run: |
           chmod +x ./auto-security-scanner.sh
-          ./script --help
+         ./auto-security-scanner.sh --help
